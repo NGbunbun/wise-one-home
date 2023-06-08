@@ -649,14 +649,14 @@ textarea:focus{
         font-size: 1.1rem;
     }
     h2{
-        width: 50%;
+        width: 55%;
     }
     h2>span{
         font-size: .55rem;
         margin-left: 20px;
     }
     .fa-bars{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     /*トップページ
@@ -666,8 +666,8 @@ textarea:focus{
     }
     .link_btn{
         bottom: 10px;
-        left: 60px;
-        font-size: 0.4rem;
+        left: 40px;
+        font-size: 0.55rem;
     }
     .main_img::before{
         height: 30px;
@@ -902,9 +902,6 @@ textarea:focus{
     .tel_num{
         font-size: 0.9rem;
     }
-    /* .tel_num{
-        position: relative;
-    } */
     .tel_num::after{
         top: -10px;
         right: -8px;
