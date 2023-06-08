@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ワイズワンホーム＿求人</title>
+    <meta name="keywords" content="不動産売却,不動産買取">
+    <meta name="description" content="ワイズワンホームは、不動産売却を専門に手がける不動産会社です。付加価値向上の工夫で早期・高額売却をサポートいたします。不動産のお悩みはぜひ当社まで。">
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!----------------------------------- トップページ --------------------------------------->
+    <section class="top" id="top">
+        <div class="main_img">
+            <img class="top_visi" src="imges/service-bk.jpg" alt="">
+        </div>
+        
+        <div class="top_message">
+            <div class="page-title">エントリーフォーム</div>
+        </div>
+    </section>
+
+    <!----------------------------------- エントリーフォーム --------------------------------------->
+
+    <div class="entry-form wrap">
+        <div class="entry-text">
+            下記フォームよりご応募ください
+        </div>
+
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfTd05i2zksufqci3TMrYlQaKy33m69bR2ak0a94Ik8Hl9e6Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <p>
+                <label for="name">お名前<span>*</span></label>
+                <input id="name" type="text" name="entry.1277890511" placeholder="フルネーム" required="">
+            </p>
+            <p>
+                <label for="name_kana">お名前(カナ)<span>*</span></label>
+                <input id="name_kana" type="text" name="entry.1349537566" placeholder="フルネーム(カナ)" required="">
+            </p>
+            <p>
+                <label for="email">メールアドレス<span>*</span></label>
+                <input id="email" type="email" name="entry.347072372" placeholder="example@mail.co.jp" required="">
+            </p>
+            <p>
+                <label for="tel">電話番号<span>*</span></label>
+                <input id="tel" type="tel" name="entry.1566060074" placeholder="0123456789" required="">
+            </p>
+            <p>
+                <label for="age">年齢<span>*</span></label>
+                <input id="age" type="number" name="entry.716107091" required="">
+            </p>
+            <p>
+                <label for="born">生年月日<span>*</span></label>
+                <input id="born" type="text" name="entry.1995076213" placeholder="年/月/日" required="">            
+                    
+            </p>
+            <p>
+                <label for="motivation">志望動機<span>*</span></label>
+                <textarea id="motivation" name="entry.1801594093" cols="30" rows="10" placeholder="設問の回答をご入力ください" required=""></textarea>
+            </p>
+            <p>
+                <label for="questions-requests">質問・ご要望</label>
+                <textarea id="questions-requests" name="entry.743277929" cols="30" rows="10" placeholder="お問い合わせ内容をご入力ください"></textarea>
+            </p>
+            <p class="form-btn"><button type="submit" name="button">送信する</button></p>
+        </form>
+        <script type="text/javascript">var submitted = false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='/thanks.html';}"></iframe>
+
+        <div class="to-top"><a href="index.html">TOPへ戻る</a></div>
+    </div>
+    
+    
+    <!----------------------------------- フッターページ --------------------------------------->
+    <footer>
+        <div class="footer_box">
+            <i class="fa-solid fa-phone"></i>
+            <span class="tel_num">0120-15-0909</span>
+            <div class="time">9:00～18:00（年末年始を除く）</div>
+        </div>
+        <div class="copy_right">&copy;2023 株式会社ワイズワンホーム</div>
+
+        <!-- topへ戻るボタン -->
+        <div class="top_scroll">
+            <a href="#top">
+                <img src="imges/topscroll.png" alt="">
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
