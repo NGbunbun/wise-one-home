@@ -156,8 +156,9 @@ h2>span{
     padding: 7px 10px;
 }
 .menu-item a:hover{
+    opacity: .8;
     background-color: var(--main-color);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .top_message{
     position: absolute;
